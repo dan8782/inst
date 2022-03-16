@@ -36,6 +36,11 @@ class _HomePageState extends State<HomePage> {
               height: 500,
               width: 500,
               color: Color.fromRGBO(231, 239, 255, 1),
+              decoration: BoxDecoration(
+                  borderRadius: new BorderRadius.only(
+                topLeft: const Radius.circular(40.0),
+                topRight: const Radius.circular(40.0),
+              )),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.start,
